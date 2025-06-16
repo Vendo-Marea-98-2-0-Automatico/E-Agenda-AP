@@ -2,10 +2,14 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .coluna-card {
+        max-width: 310px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -18,5 +22,13 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #E8ECED;
+}
+
+.opcao-card {
+    max-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
